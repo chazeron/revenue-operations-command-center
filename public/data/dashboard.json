@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "project": "Revenue Operations & CRM Command Center",
+    "data_type": "synthetic_demo",
+    "date_range": {
+      "start": "2026-01-01",
+      "end": "2026-06-30"
+    },
+    "disclaimer": "Demo data generated for portfolio purposes. No real customer or company data is shown."
+  },
+  "executive_summary": {
+    "leads": 2500,
+    "bookings": 680,
+    "shows": 444,
+    "offers": 285,
+    "closed_sales": 87,
+    "no_shows": 116,
+    "booking_rate": 0.272,
+    "show_rate": 0.6529,
+    "offer_rate": 0.6419,
+    "close_rate": 0.3053,
+    "lead_to_close_rate": 0.0348,
+    "contracted_revenue": 446629.0,
+    "cash_collected": 324349.42,
+    "cash_collection_rate": 0.7262,
+    "average_contract_value": 5133.67,
+    "revenue_per_lead": 178.65,
+    "marketing_spend": 215403.16,
+    "cost_per_lead": 86.16,
+    "cost_per_booking": 316.77,
+    "customer_acquisition_cost": 2475.9,
+    "roas": 2.07,
+    "lost_revenue": 933114.0,
+    "no_show_opportunity_cost": 116659.49
+  },
+  "funnel": [
+    {
+      "stage": "Leads",
+      "value": 2500,
+      "conversion_from_previous": 1.0,
+      "conversion_from_lead": 1.0
+    },
+    {
+      "stage": "Bookings",
+      "value": 680,
+      "conversion_from_previous": 0.272,
+      "conversion_from_lead": 0.272
+    },
+    {
+      "stage": "Shows",
+      "value": 444,
+      "conversion_from_previous": 0.6529,
+      "conversion_from_lead": 0.1776
+    },
+    {
+      "stage": "Offers",
+      "value": 285,
+      "conversion_from_previous": 0.6419,
+      "conversion_from_lead": 0.114
+    },
+    {
+      "stage": "Closed Sales",
+      "value": 87,
+      "conversion_from_previous": 0.3053,
+      "conversion_from_lead": 0.0348
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2026-01",
+      "label": "Jan 2026",
+      "leads": 434,
+      "bookings": 86,
+      "shows": 62,
+      "no_shows": 11,
+      "closed_sales": 9,
+      "contracted_revenue": 44797.0,
+      "cash_collected": 27824.25,
+      "marketing_spend": 39257.46,
+      "booking_rate": 0.1982,
+      "show_rate": 0.7209,
+      "lead_to_close_rate": 0.0207,
+      "roas": 1.14
+    },
+    {
+      "month": "2026-02",
+      "label": "Feb 2026",
+      "leads": 360,
+      "bookings": 100,
+      "shows": 67,
+      "no_shows": 20,
+      "closed_sales": 18,
+      "contracted_revenue": 91791.0,
+      "cash_collected": 69049.42,
+      "marketing_spend": 37654.11,
+      "booking_rate": 0.2778,
+      "show_rate": 0.67,
+      "lead_to_close_rate": 0.05,
+      "roas": 2.44
+    },
+    {
+      "month": "2026-03",
+      "label": "Mar 2026",
+      "leads": 443,
+      "bookings": 119,
+      "shows": 86,
+      "no_shows": 15,
+      "closed_sales": 11,
+      "contracted_revenue": 65297.0,
+      "cash_collected": 64563.67,
+      "marketing_spend": 36309.55,
+      "booking_rate": 0.2686,
+      "show_rate": 0.7227,
+      "lead_to_close_rate": 0.0248,
+      "roas": 1.8
+    },
+    {
+      "month": "2026-04",
+      "label": "Apr 2026",
+      "leads": 415,
+      "bookings": 109,
+      "shows": 76,
+      "no_shows": 16,
+      "closed_sales": 21,
+      "contracted_revenue": 114297.0,
+      "cash_collected": 67128.84,
+      "marketing_spend": 36871.44,
+      "booking_rate": 0.2627,
+      "show_rate": 0.6972,
+      "lead_to_close_rate": 0.0506,
+      "roas": 3.1
+    },
+    {
+      "month": "2026-05",
+      "label": "May 2026",
+      "leads": 451,
+      "bookings": 132,
+      "shows": 82,
+      "no_shows": 30,
+      "closed_sales": 12,
+      "contracted_revenue": 39197.0,
+      "cash_collected": 51167.58,
+      "marketing_spend": 29928.28,
+      "booking_rate": 0.2927,
+      "show_rate": 0.6212,
+      "lead_to_close_rate": 0.0266,
+      "roas": 1.31
+    },
+    {
+      "month": "2026-06",
+      "label": "Jun 2026",
+      "leads": 397,
+      "bookings": 110,
+      "shows": 58,
+      "no_shows": 18,
+      "closed_sales": 13,
+      "contracted_revenue": 71500.0,
+      "cash_collected": 44615.66,
+      "marketing_spend": 35382.32,
+      "booking_rate": 0.2771,
+      "show_rate": 0.5273,
+      "lead_to_close_rate": 0.0327,
+      "roas": 2.02
+    }
+  ],
+  "channels": [
+    {
+      "channel": "Direct",
+      "leads": 109,
+      "bookings": 30,
+      "shows": 14,
+      "offers": 7,
+      "closed_sales": 1,
+      "contracted_revenue": 500.0,
+      "marketing_spend": 2697.94,
+      "booking_rate": 0.2752,
+      "show_rate": 0.4667,
+      "offer_rate": 0.5,
+      "close_rate": 0.1429,
+      "lead_to_close_rate": 0.0092,
+      "cac": 2697.94,
+      "roas": 0.19
+    },
+    {
+      "channel": "Email Campaign",
+      "leads": 124,
+      "bookings": 30,
+      "shows": 20,
+      "offers": 11,
+      "closed_sales": 4,
+      "contracted_revenue": 13047.0,
+      "marketing_spend": 3537.43,
+      "booking_rate": 0.2419,
+      "show_rate": 0.6667,
+      "offer_rate": 0.55,
+      "close_rate": 0.3636,
+      "lead_to_close_rate": 0.0323,
+      "cac": 884.36,
+      "roas": 3.69
+    },
+    {
+      "channel": "Google Ads",
+      "leads": 298,
+      "bookings": 82,
+      "shows": 51,
+      "offers": 36,
+      "closed_sales": 14,
+      "contracted_revenue": 93000.0,
+      "marketing_spend": 42749.46,
+      "booking_rate": 0.2752,
+      "show_rate": 0.622,
+      "offer_rate": 0.7059,
+      "close_rate": 0.3889,
+      "lead_to_close_rate": 0.047,
+      "cac": 3053.53,
+      "roas": 2.18
+    },
+    {
+      "channel": "Meta Ads",
+      "leads": 843,
+      "bookings": 188,
+      "shows": 112,
+      "offers": 71,
+      "closed_sales": 18,
+      "contracted_revenue": 95547.0,
+      "marketing_spend": 109944.32,
+      "booking_rate": 0.223,
+      "show_rate": 0.5957,
+      "offer_rate": 0.6339,
+      "close_rate": 0.2535,
+      "lead_to_close_rate": 0.0214,
+      "cac": 6108.02,
+      "roas": 0.87
+    },
+    {
+      "channel": "Organic",
+      "leads": 392,
+      "bookings": 98,
+      "shows": 68,
+      "offers": 40,
+      "closed_sales": 12,
+      "contracted_revenue": 65447.0,
+      "marketing_spend": 9574.51,
+      "booking_rate": 0.25,
+      "show_rate": 0.6939,
+      "offer_rate": 0.5882,
+      "close_rate": 0.3,
+      "lead_to_close_rate": 0.0306,
+      "cac": 797.88,
+      "roas": 6.84
+    },
+    {
+      "channel": "Referral",
+      "leads": 239,
+      "bookings": 83,
+      "shows": 62,
+      "offers": 44,
+      "closed_sales": 17,
+      "contracted_revenue": 72697.0,
+      "marketing_spend": 10277.46,
+      "booking_rate": 0.3473,
+      "show_rate": 0.747,
+      "offer_rate": 0.7097,
+      "close_rate": 0.3864,
+      "lead_to_close_rate": 0.0711,
+      "cac": 604.56,
+      "roas": 7.07
+    },
+    {
+      "channel": "Webinar",
+      "leads": 495,
+      "bookings": 169,
+      "shows": 117,
+      "offers": 76,
+      "closed_sales": 21,
+      "contracted_revenue": 106391.0,
+      "marketing_spend": 36622.04,
+      "booking_rate": 0.3414,
+      "show_rate": 0.6923,
+      "offer_rate": 0.6496,
+      "close_rate": 0.2763,
+      "lead_to_close_rate": 0.0424,
+      "cac": 1743.91,
+      "roas": 2.91
+    }
+  ],
+  "closers": [
+    {
+      "closer": "Casey Bennett",
+      "bookings": 215,
+      "shows": 145,
+      "offers": 88,
+      "closed_sales": 34,
+      "contracted_revenue": 143488.0,
+      "show_rate": 0.6744,
+      "offer_rate": 0.6069,
+      "close_rate": 0.3864,
+      "average_contract_value": 4220.24
+    },
+    {
+      "closer": "Morgan Reed",
+      "bookings": 215,
+      "shows": 142,
+      "offers": 92,
+      "closed_sales": 22,
+      "contracted_revenue": 124500.0,
+      "show_rate": 0.6605,
+      "offer_rate": 0.6479,
+      "close_rate": 0.2391,
+      "average_contract_value": 5659.09
+    },
+    {
+      "closer": "Riley Carter",
+      "bookings": 250,
+      "shows": 157,
+      "offers": 105,
+      "closed_sales": 31,
+      "contracted_revenue": 178641.0,
+      "show_rate": 0.628,
+      "offer_rate": 0.6688,
+      "close_rate": 0.2952,
+      "average_contract_value": 5762.61
+    }
+  ],
+  "appointment_status": [
+    {
+      "status": "Showed",
+      "count": 444
+    },
+    {
+      "status": "No Show",
+      "count": 116
+    },
+    {
+      "status": "Rescheduled",
+      "count": 71
+    },
+    {
+      "status": "Cancelled",
+      "count": 49
+    }
+  ],
+  "products": [
+    {
+      "product_name": "Mentorship Premium",
+      "closed_sales": 25,
+      "contracted_revenue": 243500
+    },
+    {
+      "product_name": "Mentorship Standard",
+      "closed_sales": 35,
+      "contracted_revenue": 169250
+    },
+    {
+      "product_name": "Group Program",
+      "closed_sales": 11,
+      "contracted_revenue": 27000
+    },
+    {
+      "product_name": "Workshop",
+      "closed_sales": 9,
+      "contracted_revenue": 5000
+    },
+    {
+      "product_name": "Digital Course",
+      "closed_sales": 7,
+      "contracted_revenue": 1879
+    }
+  ],
+  "lost_reasons": [
+    {
+      "reason": "Timing",
+      "count": 86
+    },
+    {
+      "reason": "No budget",
+      "count": 79
+    },
+    {
+      "reason": "Not interested",
+      "count": 75
+    },
+    {
+      "reason": "Unable to contact",
+      "count": 64
+    },
+    {
+      "reason": "No Show",
+      "count": 52
+    },
+    {
+      "reason": "Partner approval",
+      "count": 50
+    },
+    {
+      "reason": "Financing unavailable",
+      "count": 40
+    },
+    {
+      "reason": "Price",
+      "count": 39
+    },
+    {
+      "reason": "Needs more time",
+      "count": 37
+    },
+    {
+      "reason": "Chose competitor",
+      "count": 32
+    },
+    {
+      "reason": "Low intent",
+      "count": 29
+    },
+    {
+      "reason": "Wrong timing",
+      "count": 22
+    },
+    {
+      "reason": "Cancelled",
+      "count": 18
+    },
+    {
+      "reason": "Insufficient capital",
+      "count": 17
+    },
+    {
+      "reason": "Not qualified",
+      "count": 15
+    }
+  ]
+}
