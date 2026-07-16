@@ -1,0 +1,9 @@
+﻿Faker @ file:///home/conda/feedstock_root/build_artifacts/faker_1784062361318/work
+numpy @ file:///D:/bld/bld/rattler-build_numpy_1783206237/work/dist/numpy-2.5.1-cp312-cp312-win_amd64.whl#sha256=19eab8c1bd2f97be0d4b22ba35cd30c333f713837f895ab95bf9204bf7a8ec50
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1777103621/work
+pandas @ file:///D:/bld/bld/rattler-build_pandas_1778602674/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1751104122/work
+setuptools==83.0.0
+six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1783704735836/work
+wheel==0.47.0
