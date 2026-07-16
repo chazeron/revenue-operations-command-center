@@ -6,7 +6,9 @@
   },
   "row_counts": {
     "representatives": 6,
-    "leads": 2500
+    "leads": 2500,
+    "bookings": 680,
+    "sales_activities": 8256
   },
   "lead_distribution_by_source": {
     "Direct": 109,
@@ -17,5 +19,13 @@
     "Referral": 239,
     "Webinar": 495
   },
-  "average_lead_score": 60.0
+  "appointment_status_counts": {
+    "Showed": 444,
+    "No Show": 116,
+    "Rescheduled": 71,
+    "Cancelled": 49
+  },
+  "average_lead_score": 60.0,
+  "booking_rate": 0.272,
+  "show_rate": 0.6529
 }
