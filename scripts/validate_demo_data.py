@@ -143,7 +143,13 @@ def calculate_kpis(data: dict[str, pd.DataFrame]) -> dict:
     expenses = data["marketing_expenses"]
 
     shows = int((bookings["appointment_status"] == "Showed").sum())
-    offers = int((opportunities["stage_name"] == "Offer Made").sum()) + len(sales)
+
+    # Any opportunity with monetary value above zero reached the offer stage.
+    # Won offers later become sales; lost offers keep status Lost/Closed Lost.
+    offered_opportunities = opportunities[
+        opportunities["monetary_value"].fillna(0) > 0
+    ]
+    offers = len(offered_opportunities)
     closed_sales = len(sales)
 
     contracted_revenue = float(sales["contract_value"].sum())
@@ -161,7 +167,8 @@ def calculate_kpis(data: dict[str, pd.DataFrame]) -> dict:
 
     lost_revenue = float(
         opportunities.loc[
-            opportunities["status"] == "Lost",
+            (opportunities["status"] == "Lost")
+            & (opportunities["monetary_value"].fillna(0) > 0),
             "monetary_value",
         ].sum()
     )
