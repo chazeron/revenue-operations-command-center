@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "date_range": {
+    "start": "2026-01-01",
+    "end": "2026-06-30"
+  },
+  "row_counts": {
+    "representatives": 6,
+    "leads": 2500
+  },
+  "lead_distribution_by_source": {
+    "Direct": 109,
+    "Email Campaign": 124,
+    "Google Ads": 298,
+    "Meta Ads": 843,
+    "Organic": 392,
+    "Referral": 239,
+    "Webinar": 495
+  },
+  "average_lead_score": 60.0
+}
