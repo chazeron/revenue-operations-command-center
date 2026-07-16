@@ -10,6 +10,7 @@ const items = [
   { href: "/team", label: "Sales Team", badge: "04" },
   { href: "/risk", label: "Revenue Risk", badge: "05" },
   { href: "/methodology", label: "Methodology", badge: "06" },
+  { href: "/case-study", label: "Case Study", badge: "07" },
 ];
 
 export function Sidebar() {
@@ -44,7 +45,9 @@ export function Sidebar() {
               <span>{item.label}</span>
               <span
                 className={`text-xs transition ${
-                  active ? "text-cyan-300" : "text-slate-600 group-hover:text-cyan-300"
+                  active
+                    ? "text-cyan-300"
+                    : "text-slate-600 group-hover:text-cyan-300"
                 }`}
               >
                 {item.badge}

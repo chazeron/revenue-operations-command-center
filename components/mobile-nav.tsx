@@ -11,6 +11,7 @@ const items = [
   ["/team", "Sales Team"],
   ["/risk", "Revenue Risk"],
   ["/methodology", "Methodology"],
+  ["/case-study", "Case Study"],
 ];
 
 export function MobileNav() {
