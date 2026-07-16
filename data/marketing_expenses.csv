@@ -1,0 +1,73 @@
+expense_id,expense_date,channel,campaign,expense_category,amount,leads_generated,impressions,clicks
+exp_f5da5073335b,2026-01-10,Meta Ads,Evergreen Wealth,Advertising,7332.92,49,4506,155
+exp_30116a9011ea,2026-01-23,Meta Ads,Investor Calculator,Advertising,6542.42,53,4634,251
+exp_81c7a04a6899,2026-01-02,Meta Ads,Mentorship VSL,Advertising,5239.67,53,10821,320
+exp_8859f7fab384,2026-01-19,Google Ads,High Intent Search,Advertising,5080.32,21,1960,104
+exp_7a5a12529a87,2026-01-02,Google Ads,Real Estate Mentorship,Advertising,3948.05,20,3205,131
+exp_c72a129ac767,2026-01-26,Organic,Organic Content,Creative Production,1484.43,68,10865,336
+exp_7acc5ca94d10,2026-01-08,Referral,Partner Referral,Contractor,675.12,24,3994,145
+exp_ad08e0153c57,2026-01-12,Referral,Client Referral,Contractor,431.81,23,4813,151
+exp_2c9ae584a893,2026-01-18,Webinar,5-Day Investor Challenge,Creative Production,3193.75,39,6677,195
+exp_9dd56478af66,2026-01-18,Webinar,VIP Webinar,Creative Production,4194.64,40,4919,207
+exp_868e10542dcf,2026-01-03,Email Campaign,Database Reactivation,Software,707.1,21,2271,119
+exp_b778b04de354,2026-01-14,Direct,Direct Traffic,Software,427.23,23,2535,82
+exp_f114615931a6,2026-02-17,Meta Ads,Evergreen Wealth,Advertising,7395.45,39,6730,286
+exp_0816e36ff82d,2026-02-04,Meta Ads,Investor Calculator,Advertising,7601.36,39,8139,249
+exp_65b88832bc79,2026-02-16,Meta Ads,Mentorship VSL,Advertising,4860.52,36,3361,115
+exp_592d2024fdda,2026-02-12,Google Ads,High Intent Search,Advertising,2826.88,20,4845,117
+exp_716a8e0135e6,2026-02-16,Google Ads,Real Estate Mentorship,Advertising,3842.41,19,5179,129
+exp_4149365522cf,2026-02-22,Organic,Organic Content,Creative Production,1471.7,62,12682,401
+exp_b173e4df5b8f,2026-02-14,Referral,Partner Referral,Contractor,1222.35,18,5102,125
+exp_7c67949460ea,2026-02-01,Referral,Client Referral,Contractor,924.19,15,1604,46
+exp_9bc1b41123aa,2026-02-18,Webinar,5-Day Investor Challenge,Creative Production,3192.58,40,5658,241
+exp_99cb427a63c8,2026-02-08,Webinar,VIP Webinar,Creative Production,3522.54,41,8745,278
+exp_4adcb762fe41,2026-02-17,Email Campaign,Database Reactivation,Software,503.39,17,1153,52
+exp_268755a6d558,2026-02-23,Direct,Direct Traffic,Software,290.74,14,2908,104
+exp_6f1bbc51fe1c,2026-03-04,Meta Ads,Evergreen Wealth,Advertising,7548.89,46,11648,333
+exp_3fc9498c5e3e,2026-03-19,Meta Ads,Investor Calculator,Advertising,4207.45,48,9190,253
+exp_4c33c15f1c1d,2026-03-07,Meta Ads,Mentorship VSL,Advertising,5645.82,54,6097,303
+exp_1c3fa9ad050b,2026-03-09,Google Ads,High Intent Search,Advertising,4754.43,26,7016,189
+exp_69eacc40650a,2026-03-08,Google Ads,Real Estate Mentorship,Advertising,2487.12,23,2925,133
+exp_4c0d0ae9b651,2026-03-24,Organic,Organic Content,Creative Production,1927.15,67,4634,225
+exp_869f097c4a5b,2026-03-08,Referral,Partner Referral,Contractor,1247.66,24,4892,131
+exp_8961aa96130f,2026-03-20,Referral,Client Referral,Contractor,1311.48,22,5659,146
+exp_c809511e122b,2026-03-31,Webinar,5-Day Investor Challenge,Creative Production,4130.24,44,5378,221
+exp_e754c51769ac,2026-03-16,Webinar,VIP Webinar,Creative Production,2018.55,47,6456,289
+exp_1d7426362fe0,2026-03-05,Email Campaign,Database Reactivation,Software,432.11,23,3382,164
+exp_2c1aff6c946a,2026-03-17,Direct,Direct Traffic,Software,598.65,19,3907,115
+exp_818c3d5f3044,2026-04-25,Meta Ads,Evergreen Wealth,Advertising,3926.64,48,6509,226
+exp_cfe99a4775a6,2026-04-11,Meta Ads,Investor Calculator,Advertising,8331.86,47,6139,286
+exp_d7f871319441,2026-04-29,Meta Ads,Mentorship VSL,Advertising,6263.08,47,8606,278
+exp_924056480580,2026-04-25,Google Ads,High Intent Search,Advertising,3022.27,27,6430,182
+exp_3e1341b0076b,2026-04-14,Google Ads,Real Estate Mentorship,Advertising,3343.45,31,3888,106
+exp_8b3d0480983b,2026-04-07,Organic,Organic Content,Creative Production,2006.74,66,11540,476
+exp_f170f5238416,2026-04-26,Referral,Partner Referral,Contractor,498.98,19,3324,137
+exp_f7ece44c85ab,2026-04-03,Referral,Client Referral,Contractor,592.6,19,1879,77
+exp_c9dc3534eb30,2026-04-11,Webinar,5-Day Investor Challenge,Event,3898.2,40,3374,153
+exp_b0d5299429fc,2026-04-20,Webinar,VIP Webinar,Event,3934.25,38,4438,147
+exp_d3c4cbde8398,2026-04-28,Email Campaign,Database Reactivation,Software,848.09,22,3314,112
+exp_a27d1a1a999e,2026-04-22,Direct,Direct Traffic,Software,205.28,11,1799,53
+exp_96d9add271a5,2026-05-19,Meta Ads,Evergreen Wealth,Advertising,4042.04,52,10361,283
+exp_a6e0cc988668,2026-05-21,Meta Ads,Investor Calculator,Advertising,4221.91,52,5364,297
+exp_a0212663f9b6,2026-05-21,Meta Ads,Mentorship VSL,Advertising,6771.03,49,5833,298
+exp_86d04cb20c61,2026-05-14,Google Ads,High Intent Search,Advertising,2905.06,22,1615,75
+exp_ab7814dda824,2026-05-03,Google Ads,Real Estate Mentorship,Advertising,4273.28,30,5604,204
+exp_469920604e61,2026-05-28,Organic,Organic Content,Creative Production,1719.48,73,6894,252
+exp_19f8bb6a3239,2026-05-08,Referral,Partner Referral,Contractor,566.84,23,3482,92
+exp_e0ef9da8e9cc,2026-05-20,Referral,Client Referral,Contractor,764.55,22,2458,95
+exp_3b19894ca012,2026-05-30,Webinar,5-Day Investor Challenge,Creative Production,1970.11,44,4618,224
+exp_f1ec748b5802,2026-05-12,Webinar,VIP Webinar,Event,1449.94,46,8108,204
+exp_9d168447ea7a,2026-05-13,Email Campaign,Database Reactivation,Software,646.0,22,2504,68
+exp_04973a61ffdc,2026-05-24,Direct,Direct Traffic,Software,598.04,16,3622,88
+exp_20f6cd602cba,2026-06-06,Meta Ads,Evergreen Wealth,Advertising,6725.86,33,2811,133
+exp_eed05ec5d554,2026-06-06,Meta Ads,Investor Calculator,Advertising,7025.84,42,8183,238
+exp_9011c3283aa5,2026-06-28,Meta Ads,Mentorship VSL,Advertising,6261.56,56,9520,353
+exp_14452502d956,2026-06-29,Google Ads,High Intent Search,Advertising,2579.4,22,3262,105
+exp_c09392839136,2026-06-09,Google Ads,Real Estate Mentorship,Advertising,3686.79,37,7827,269
+exp_c21e3ce8a29b,2026-06-30,Organic,Organic Content,Creative Production,965.01,56,6003,251
+exp_2354de710979,2026-06-17,Referral,Partner Referral,Contractor,598.76,19,4755,134
+exp_67ab1337193f,2026-06-09,Referral,Client Referral,Contractor,1443.12,11,940,52
+exp_eecc1034e299,2026-06-18,Webinar,5-Day Investor Challenge,Event,1539.24,35,5776,191
+exp_a8d8e1527689,2026-06-30,Webinar,VIP Webinar,Event,3578.0,41,5696,149
+exp_dd6e5beb18a2,2026-06-12,Email Campaign,Database Reactivation,Software,400.74,19,3300,123
+exp_e84e6a6a4b78,2026-06-05,Direct,Direct Traffic,Software,578.0,26,3934,174

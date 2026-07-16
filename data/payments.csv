@@ -1,0 +1,153 @@
+payment_id,sale_id,lead_id,payment_date,payment_type,payment_status,amount,payment_method,transaction_reference,installment_number
+pay_fe30455c9d3b,sale_33a12f2ce5a6,lead_0675edea68ea,2026-03-14T10:46:27,Upfront,Succeeded,5000.0,Credit Card,txn_7708290cda30,1
+pay_34436a24b73a,sale_7bb36b199fae,lead_7ce78c717015,2026-06-08T02:26:07,Upfront,Succeeded,375.0,Financing,txn_a414b2c28c34,1
+pay_6b01516ba9ab,sale_fc161203a63a,lead_6d1c5379fefc,2026-05-10T05:14:12,Upfront,Failed,0.0,Credit Card,txn_fd062123a66d,1
+pay_2ce696131e88,sale_a64aa4acbebf,lead_6f298ea66771,2026-04-08T18:21:47,Upfront,Pending,0.0,PayPal,txn_d7c17ee89134,1
+pay_ce7ec3fa4472,sale_9dba6c284bae,lead_511bdbe3e7b0,2026-04-12T12:17:32,Upfront,Succeeded,5000.0,Credit Card,txn_a4078374f4fb,1
+pay_c1c93afae902,sale_9dba6c284bae,lead_511bdbe3e7b0,2026-05-12T12:17:32,Recurring,Succeeded,5000.0,Credit Card,txn_dc7f4646b985,2
+pay_647fdb2fd34a,sale_9a4117f8a8ed,lead_ba2db8a7b042,2026-04-01T04:44:23,Upfront,Succeeded,5000.0,Credit Card,txn_089628eadea5,1
+pay_977e9a964e31,sale_9a4117f8a8ed,lead_ba2db8a7b042,2026-05-01T04:44:23,Recurring,Succeeded,5000.0,Credit Card,txn_4118f0595fba,2
+pay_21efc27c563f,sale_aa8bec0390f6,lead_49b745f992ff,2026-03-03T22:17:08,Upfront,Succeeded,5000.0,Financing,txn_f6ced66f8dab,1
+pay_797e2051c18f,sale_7c8e3eba4de7,lead_986f003ff784,2026-06-23T15:44:50,Upfront,Succeeded,5000.0,Credit Card,txn_d34ee5f1fda8,1
+pay_07b829ffce63,sale_e0d3fa812ee5,lead_3bc8a16c6bfc,2026-04-12T05:44:05,Upfront,Succeeded,5000.0,Credit Card,txn_400c6c90af17,1
+pay_615ef09cdbef,sale_f686f353292f,lead_7f93ea2edde1,2026-01-28T09:42:32,Upfront,Succeeded,4000.0,Credit Card,txn_995cc9cbc517,1
+pay_60ced420cf58,sale_2ec08a5979d0,lead_2623d162ecb5,2026-03-25T21:35:59,Upfront,Pending,0.0,Credit Card,txn_55692a7a25b9,1
+pay_dd03f2f000c1,sale_d87ea740bffd,lead_da1efd473d48,2026-03-14T07:01:30,Upfront,Succeeded,9750.0,Credit Card,txn_b2916c48cacb,1
+pay_f1ce3568b569,sale_2a1b16ccb58a,lead_a1d0fcbd0f3b,2026-05-28T23:02:56,Upfront,Succeeded,49.25,Bank Transfer,txn_d0b90feef671,1
+pay_3d930048ba34,sale_2a1b16ccb58a,lead_a1d0fcbd0f3b,2026-06-27T23:02:56,Recurring,Succeeded,49.25,Credit Card,txn_0a97f5e295ef,2
+pay_007993941ffe,sale_710b2e406843,lead_2d6c25fbba67,2026-04-27T14:05:49,Upfront,Pending,0.0,Bank Transfer,txn_3f2a356e218b,1
+pay_8f6ecba34675,sale_471e3eaae87f,lead_d3da4bcbdc44,2026-04-01T01:09:13,Upfront,Succeeded,4750.0,Credit Card,txn_8ae5ac8a6211,1
+pay_23e12e71904e,sale_471e3eaae87f,lead_d3da4bcbdc44,2026-04-12T01:09:13,Refund,Refunded,-4750.0,Original Method,txn_5cde354e3d59,1
+pay_14404a34d8cf,sale_471e3eaae87f,lead_d3da4bcbdc44,2026-05-01T01:09:13,Recurring,Succeeded,4750.0,Credit Card,txn_22d0e111a1d8,2
+pay_ecf9b9c4361f,sale_7d0bfbcda792,lead_1c74d6624d63,2026-04-19T10:50:31,Upfront,Succeeded,2500.0,Financing,txn_5a4e9273cf8c,1
+pay_aa157bb05e90,sale_7d0bfbcda792,lead_1c74d6624d63,2026-05-19T10:50:31,Recurring,Succeeded,2500.0,Credit Card,txn_d062cc52e002,2
+pay_df11db445efe,sale_7d0bfbcda792,lead_1c74d6624d63,2026-06-01T10:50:31,Refund,Refunded,-2500.0,Original Method,txn_090ec1e04a3f,2
+pay_b22c360eeef0,sale_bfa09875c11d,lead_f04f57e5c147,2026-02-11T00:12:39,Upfront,Succeeded,24.75,Bank Transfer,txn_4939fcf474c3,1
+pay_df0c8d04ff00,sale_bfa09875c11d,lead_f04f57e5c147,2026-03-13T00:12:39,Recurring,Pending,0.0,Credit Card,txn_bc2999788cc4,2
+pay_d994be354d4c,sale_bfa09875c11d,lead_f04f57e5c147,2026-04-12T00:12:39,Recurring,Pending,0.0,Credit Card,txn_0598aeb1e227,3
+pay_64af24c6171e,sale_bfa09875c11d,lead_f04f57e5c147,2026-05-12T00:12:39,Recurring,Succeeded,24.75,Credit Card,txn_49528dab8b92,4
+pay_035e89bb918a,sale_bfa09875c11d,lead_f04f57e5c147,2026-06-11T00:12:39,Recurring,Succeeded,24.75,Credit Card,txn_063f57f16773,5
+pay_286700ed66db,sale_3ea847257f0d,lead_3f0dd229d09e,2026-02-22T12:03:14,Upfront,Succeeded,10000.0,Credit Card,txn_ae6150fb5b74,1
+pay_ead1794652f5,sale_a9e4469937cb,lead_02bbe708279a,2026-02-24T11:09:12,Upfront,Succeeded,5000.0,Credit Card,txn_31fd6dee4309,1
+pay_83e65b19d1a1,sale_786c20ce79b5,lead_1451d7466f22,2026-02-23T13:18:01,Upfront,Succeeded,2437.5,Credit Card,txn_46046c1f00a0,1
+pay_2bb4edb47bb9,sale_786c20ce79b5,lead_1451d7466f22,2026-03-25T13:18:01,Recurring,Succeeded,2437.5,Bank Transfer,txn_d434612def92,2
+pay_2395abfbdcf8,sale_786c20ce79b5,lead_1451d7466f22,2026-04-24T13:18:01,Recurring,Succeeded,2437.5,Financing,txn_6b3c3e3c88c2,3
+pay_05b481cb1f21,sale_786c20ce79b5,lead_1451d7466f22,2026-05-24T13:18:01,Recurring,Succeeded,2437.5,Bank Transfer,txn_70f96c9307d2,4
+pay_abacf7fab30c,sale_f5b7026498ac,lead_f044fb7de6f1,2026-02-17T20:45:29,Upfront,Succeeded,5000.0,Credit Card,txn_cea4cb798e88,1
+pay_94813be4fd6e,sale_b2a437949a72,lead_7ae4d7522868,2026-06-07T02:45:05,Upfront,Succeeded,375.0,Credit Card,txn_ff4a538cf7bc,1
+pay_2f4ba0ba2c38,sale_e1301a80c758,lead_1fb4e22b1b87,2026-05-13T21:51:09,Upfront,Succeeded,9750.0,Credit Card,txn_db9ffc0e60eb,1
+pay_46cb43754618,sale_ef81fa771fd0,lead_f3b781c8cddd,2026-04-04T23:43:58,Upfront,Succeeded,148.5,Bank Transfer,txn_7da9c0f63319,1
+pay_87e169932274,sale_ef81fa771fd0,lead_f3b781c8cddd,2026-05-04T23:43:58,Recurring,Succeeded,148.5,Bank Transfer,txn_18784cd5f63e,2
+pay_01ffe81a8015,sale_87a9cb73f497,lead_b5e20a90a33e,2026-02-26T12:50:36,Upfront,Succeeded,1250.0,Credit Card,txn_4599fae59e90,1
+pay_f4beb05eab99,sale_87a9cb73f497,lead_b5e20a90a33e,2026-03-28T12:50:36,Recurring,Succeeded,1250.0,Credit Card,txn_050150f9f104,2
+pay_970be1332210,sale_87a9cb73f497,lead_b5e20a90a33e,2026-04-27T12:50:36,Recurring,Succeeded,1250.0,Bank Transfer,txn_7254c5435467,3
+pay_973032fcaca4,sale_87a9cb73f497,lead_b5e20a90a33e,2026-05-27T12:50:36,Recurring,Succeeded,1250.0,Credit Card,txn_7d4572523306,4
+pay_26370dcfbc39,sale_f206cfadfb83,lead_7aa605a3c755,2026-04-20T13:29:49,Upfront,Succeeded,5000.0,Credit Card,txn_b49060e52d09,1
+pay_e98c6c3cf917,sale_7895751e8d41,lead_7718ae0f0f6c,2026-01-21T08:46:14,Upfront,Succeeded,1125.0,Bank Transfer,txn_4b23406b4401,1
+pay_b3edb32a5aba,sale_7895751e8d41,lead_7718ae0f0f6c,2026-02-20T08:46:14,Recurring,Succeeded,1125.0,Credit Card,txn_cc015c919123,2
+pay_c886e27ce017,sale_21b4475e406f,lead_d0fa7784f572,2026-04-02T10:45:35,Upfront,Succeeded,625.0,Financing,txn_b0aff54f6dcf,1
+pay_f88b2235dcf7,sale_21b4475e406f,lead_d0fa7784f572,2026-05-02T10:45:35,Recurring,Succeeded,625.0,Credit Card,txn_355a41976d93,2
+pay_30989b55b457,sale_21b4475e406f,lead_d0fa7784f572,2026-06-01T10:45:35,Recurring,Succeeded,625.0,Credit Card,txn_14a7d01d78c5,3
+pay_78e9bcb83b08,sale_c6f35592e8da,lead_5217e8cc7b31,2026-02-10T12:48:00,Upfront,Succeeded,9000.0,Credit Card,txn_1f515f28151d,1
+pay_f828a9087c8f,sale_4005d751e659,lead_fef75ac1d8e8,2026-02-22T01:01:58,Upfront,Succeeded,125.0,Credit Card,txn_0911e0d99deb,1
+pay_11d264876be2,sale_4005d751e659,lead_fef75ac1d8e8,2026-03-24T01:01:58,Recurring,Succeeded,125.0,Bank Transfer,txn_b406d4f0dafc,2
+pay_ec26fcca3b7d,sale_d15fd72d5e4f,lead_0d612dc74b4a,2026-06-10T02:22:30,Upfront,Succeeded,1250.0,Credit Card,txn_a73c0990dcd6,1
+pay_bc31b27f0d41,sale_a826403f8b61,lead_6c707feccbc8,2026-01-12T06:35:24,Upfront,Succeeded,5000.0,Credit Card,txn_1bd15e306926,1
+pay_76e8e2beefdd,sale_a826403f8b61,lead_6c707feccbc8,2026-02-11T06:35:24,Recurring,Pending,0.0,Credit Card,txn_9212a8b7d857,2
+pay_f1e3efc40d1e,sale_90ce2fd47b24,lead_6cb117baa30b,2026-04-06T15:45:51,Upfront,Succeeded,4000.0,Bank Transfer,txn_683a46b21dd0,1
+pay_74b498beb610,sale_cd1f418928aa,lead_8ab95f69968f,2026-02-10T21:44:49,Upfront,Succeeded,297.0,Bank Transfer,txn_a60b8beec292,1
+pay_69afab92a0a9,sale_ec47ac0bdf07,lead_b28508e959a1,2026-03-25T07:37:55,Upfront,Succeeded,10000.0,Credit Card,txn_9bf44e39c9be,1
+pay_b714e4e0ac67,sale_bdd29d522b7f,lead_9094e8344785,2026-05-28T14:31:48,Upfront,Succeeded,250.0,Bank Transfer,txn_0f67a928d38c,1
+pay_ea0c9d737909,sale_28a483c509cc,lead_aaaa49352e40,2026-03-13T18:29:01,Upfront,Succeeded,750.0,Credit Card,txn_567ab797fcda,1
+pay_1f2b16183895,sale_a79ba4ba4792,lead_64ca53065ca6,2026-04-29T01:50:09,Upfront,Succeeded,2375.0,Credit Card,txn_603e499d3717,1
+pay_8c4e0ee63891,sale_a79ba4ba4792,lead_64ca53065ca6,2026-05-29T01:50:09,Recurring,Succeeded,2375.0,Credit Card,txn_86c0d540b0e7,2
+pay_b8d8b940d227,sale_a79ba4ba4792,lead_64ca53065ca6,2026-06-28T01:50:09,Recurring,Succeeded,2375.0,Credit Card,txn_4a1b557b14d2,3
+pay_d5d6c07970c5,sale_d95b109705fe,lead_5b27d2ec6cfb,2026-03-19T19:39:19,Upfront,Succeeded,5000.0,Credit Card,txn_62dc4dba7a55,1
+pay_06a107d57b8c,sale_d95b109705fe,lead_5b27d2ec6cfb,2026-04-18T19:39:19,Recurring,Succeeded,5000.0,Financing,txn_7846d2748580,2
+pay_a0c158b810f2,sale_119a6f568815,lead_c427a7b8ce6f,2026-02-13T06:49:33,Upfront,Succeeded,2500.0,Bank Transfer,txn_5ce09e2b404b,1
+pay_3352d76b90db,sale_119a6f568815,lead_c427a7b8ce6f,2026-03-15T06:49:33,Recurring,Succeeded,2500.0,Credit Card,txn_253f8633477e,2
+pay_769c7d09e024,sale_e472fd7be309,lead_57f253a32c90,2026-01-25T03:27:15,Upfront,Succeeded,10000.0,Credit Card,txn_c562de59596c,1
+pay_de64eba3aa9f,sale_7fed9f62bfd8,lead_94939b25fcd3,2026-04-30T22:53:07,Upfront,Succeeded,10000.0,Bank Transfer,txn_d03ed2f087ba,1
+pay_c590108e1638,sale_6d20b13c0a92,lead_3d53c292a9d5,2026-02-23T15:59:01,Upfront,Failed,0.0,Credit Card,txn_fc6db0bf0398,1
+pay_8a35e6a3e415,sale_abdce58d0c51,lead_a325d428df42,2026-02-18T09:48:04,Upfront,Succeeded,9500.0,Bank Transfer,txn_ca8dd9c68668,1
+pay_fd54e2edfbeb,sale_764819584d59,lead_a9a67911688d,2026-05-04T06:15:58,Upfront,Succeeded,1125.0,Bank Transfer,txn_4fa386f7d7d4,1
+pay_c5156f8721f4,sale_764819584d59,lead_a9a67911688d,2026-06-03T06:15:58,Recurring,Succeeded,1125.0,Credit Card,txn_23851f2abcf6,2
+pay_e6b723544db2,sale_3d4a736413f3,lead_9a8261ce0c96,2026-06-12T09:19:00,Upfront,Succeeded,5000.0,Bank Transfer,txn_c4e71cf446cf,1
+pay_fdf632f18774,sale_843a50ad149f,lead_525af0baaaf3,2026-02-02T08:11:28,Upfront,Succeeded,49.25,PayPal,txn_dd65728ead05,1
+pay_5cfed845ffb4,sale_843a50ad149f,lead_525af0baaaf3,2026-03-04T08:11:28,Recurring,Succeeded,49.25,PayPal,txn_2aab807337f3,2
+pay_0a82e886f0d1,sale_843a50ad149f,lead_525af0baaaf3,2026-04-03T08:11:28,Recurring,Succeeded,49.25,Credit Card,txn_863e44cbeb1a,3
+pay_fd22b344b8e4,sale_843a50ad149f,lead_525af0baaaf3,2026-05-03T08:11:28,Recurring,Succeeded,49.25,Financing,txn_4c69dc2d87bf,4
+pay_3f181d3483ab,sale_6e1ded29af1f,lead_cdc911fe0db7,2026-01-15T14:26:33,Upfront,Succeeded,74.25,Bank Transfer,txn_313ad83e4e76,1
+pay_d68dccacd43e,sale_6e1ded29af1f,lead_cdc911fe0db7,2026-02-14T14:26:33,Recurring,Succeeded,74.25,Credit Card,txn_263251572b6d,2
+pay_68435895101f,sale_6e1ded29af1f,lead_cdc911fe0db7,2026-03-16T14:26:33,Recurring,Succeeded,74.25,Financing,txn_24180bb70300,3
+pay_b762ea27883f,sale_6e1ded29af1f,lead_cdc911fe0db7,2026-04-15T14:26:33,Recurring,Succeeded,74.25,Financing,txn_8c9c9b83bce7,4
+pay_7913b388e3da,sale_d913aa5845ce,lead_152b759b8df0,2026-05-19T18:58:41,Upfront,Succeeded,2250.0,Financing,txn_be941b3a85d2,1
+pay_9bc4a6d90df5,sale_d913aa5845ce,lead_152b759b8df0,2026-06-18T18:58:41,Recurring,Succeeded,2250.0,Credit Card,txn_7ec7617fb457,2
+pay_f217fdbe5c59,sale_f546ac5a7ba9,lead_fe52ed391369,2026-03-06T11:55:26,Upfront,Succeeded,10000.0,PayPal,txn_21ce7e9ff851,1
+pay_0dda37951819,sale_d19377450f65,lead_a6b1d29ed5c7,2026-06-15T05:10:41,Upfront,Succeeded,5000.0,Credit Card,txn_5d2eb4bf693f,1
+pay_f9f3c6d14e54,sale_4d70960e7601,lead_d8d3801cad07,2026-03-23T07:45:23,Upfront,Succeeded,148.5,Credit Card,txn_2dfc216a8f4e,1
+pay_8a10c624f798,sale_4d70960e7601,lead_d8d3801cad07,2026-04-22T07:45:23,Recurring,Succeeded,148.5,Credit Card,txn_6181399c3aeb,2
+pay_b81be7860a3a,sale_6567bc1f7246,lead_70fe77837087,2026-05-12T06:01:46,Upfront,Succeeded,2500.0,Credit Card,txn_d28f60a7693e,1
+pay_264076859095,sale_57962b7a2f0f,lead_db609172f248,2026-04-15T09:31:03,Upfront,Pending,0.0,Credit Card,txn_d24aea1dbcf3,1
+pay_5c86b335b638,sale_d7e441ee7d69,lead_b1a24edfb48d,2026-05-22T09:36:55,Upfront,Succeeded,395.83,Financing,txn_27bd392595e5,1
+pay_f18358cae5dd,sale_d7e441ee7d69,lead_b1a24edfb48d,2026-06-21T09:36:55,Recurring,Succeeded,395.83,Bank Transfer,txn_af6332b8592c,2
+pay_d059662dbb9b,sale_7f5c667d08c7,lead_1dfa7e2ef4a0,2026-04-28T10:14:58,Upfront,Succeeded,625.0,Financing,txn_bf01cd864a12,1
+pay_74a4c92a303c,sale_7f5c667d08c7,lead_1dfa7e2ef4a0,2026-05-28T10:14:58,Recurring,Succeeded,625.0,Financing,txn_8b1074133c83,2
+pay_23cbb1916dd6,sale_7f5c667d08c7,lead_1dfa7e2ef4a0,2026-06-27T10:14:58,Recurring,Succeeded,625.0,Credit Card,txn_737112bdc1a7,3
+pay_f7cce19ce366,sale_484ce8fac1af,lead_fd2867d8d71a,2026-06-24T09:43:20,Upfront,Succeeded,2500.0,Credit Card,txn_d96c5899ae16,1
+pay_770a8ca0ee09,sale_e0494eb3de90,lead_a26f9ba237af,2026-06-11T10:32:34,Upfront,Succeeded,2500.0,Credit Card,txn_36da8b103cce,1
+pay_3d9248e38351,sale_fe7674816353,lead_a5df3740cc2c,2026-01-31T18:08:42,Upfront,Succeeded,625.0,Credit Card,txn_ae1eb037ac2e,1
+pay_870aa78dccf4,sale_fe7674816353,lead_a5df3740cc2c,2026-03-02T18:08:42,Recurring,Succeeded,625.0,Credit Card,txn_21e421bad08c,2
+pay_146d061df635,sale_fe7674816353,lead_a5df3740cc2c,2026-04-01T18:08:42,Recurring,Succeeded,625.0,Bank Transfer,txn_ef29f9b4fd35,3
+pay_1500c1483fac,sale_fe7674816353,lead_a5df3740cc2c,2026-04-21T18:08:42,Refund,Refunded,-625.0,Original Method,txn_247437f2e626,3
+pay_b9939a05b908,sale_fe7674816353,lead_a5df3740cc2c,2026-05-01T18:08:42,Recurring,Succeeded,625.0,Financing,txn_78712aeaa045,4
+pay_991a779d29d5,sale_25c23aac9700,lead_e97cfc760952,2026-06-12T08:32:06,Upfront,Succeeded,1250.0,Credit Card,txn_27a937c4c623,1
+pay_6b71782d459c,sale_f6efb8caa6e1,lead_5e5ff5c26003,2026-02-10T09:58:14,Upfront,Succeeded,250.0,Credit Card,txn_dc4a4bbf7629,1
+pay_f2be5c30e771,sale_f6efb8caa6e1,lead_5e5ff5c26003,2026-03-12T09:58:14,Recurring,Succeeded,250.0,Credit Card,txn_ab967f1686c0,2
+pay_685035fd0d88,sale_f744a8bd09ed,lead_af61f26d1d43,2026-05-09T22:10:52,Upfront,Succeeded,375.0,Credit Card,txn_08214a361e53,1
+pay_5cb79c082b92,sale_f744a8bd09ed,lead_af61f26d1d43,2026-06-08T22:10:52,Recurring,Succeeded,375.0,Bank Transfer,txn_dcf4b309278c,2
+pay_6f5382c68208,sale_1d15bd3ec2e7,lead_206522ae6ee4,2026-04-05T04:10:42,Upfront,Succeeded,2500.0,Credit Card,txn_987f7d233c46,1
+pay_b6d9029363df,sale_63818cbaf661,lead_d678891c7ca4,2026-06-07T15:13:27,Upfront,Failed,0.0,Credit Card,txn_5fb799ceb19b,1
+pay_04488575b551,sale_71dae2fa209a,lead_8d132302d5c6,2026-02-11T08:44:34,Upfront,Succeeded,9750.0,Bank Transfer,txn_cf03d8f68ff0,1
+pay_58c607aecd5a,sale_1b7031082363,lead_6fc360060b5d,2026-04-06T18:39:07,Upfront,Succeeded,2375.0,Bank Transfer,txn_4452404cf5ea,1
+pay_1497f448e771,sale_1b7031082363,lead_6fc360060b5d,2026-05-06T18:39:07,Recurring,Succeeded,2375.0,Credit Card,txn_a60fec79fc47,2
+pay_2f924c2e795b,sale_1b7031082363,lead_6fc360060b5d,2026-06-05T18:39:07,Recurring,Succeeded,2375.0,Credit Card,txn_ded4f387111d,3
+pay_e65ac5b30f28,sale_3bc35a9175e0,lead_ca52c9f2b21b,2026-01-30T14:06:42,Upfront,Succeeded,5000.0,Credit Card,txn_f742853321a5,1
+pay_648185061a01,sale_3bc35a9175e0,lead_ca52c9f2b21b,2026-03-01T14:06:42,Recurring,Succeeded,5000.0,Bank Transfer,txn_e3292d815164,2
+pay_c0a6c43c017d,sale_13e6ad8afba3,lead_45801a43bebf,2026-06-11T19:45:34,Upfront,Succeeded,9750.0,Credit Card,txn_4d5c4d2a2470,1
+pay_a3f0c9c4b70a,sale_df154756c1e6,lead_3734aeaa97d8,2026-04-27T01:13:28,Upfront,Succeeded,416.67,Credit Card,txn_2de4234f187e,1
+pay_b05fbbc6a0cb,sale_df154756c1e6,lead_3734aeaa97d8,2026-05-27T01:13:28,Recurring,Succeeded,416.67,Credit Card,txn_60118b6561f4,2
+pay_d65e13185e91,sale_df154756c1e6,lead_3734aeaa97d8,2026-06-26T01:13:28,Recurring,Failed,0.0,Bank Transfer,txn_4e967707c5e9,3
+pay_44c38f5ef44c,sale_8d8b91b518cf,lead_d27ba6530fe5,2026-03-13T15:53:41,Upfront,Succeeded,1187.5,Credit Card,txn_2ccf3547078d,1
+pay_330ed31a541d,sale_8d8b91b518cf,lead_d27ba6530fe5,2026-04-12T15:53:41,Recurring,Succeeded,1187.5,Credit Card,txn_16d08898e41b,2
+pay_f67892f757cb,sale_8d8b91b518cf,lead_d27ba6530fe5,2026-05-12T15:53:41,Recurring,Succeeded,1187.5,Credit Card,txn_6e2866c21f3e,3
+pay_216c5accc019,sale_8d8b91b518cf,lead_d27ba6530fe5,2026-06-11T15:53:41,Recurring,Succeeded,1187.5,Credit Card,txn_92df86ce6cae,4
+pay_f9c3d0ecb0fa,sale_cb68800074b3,lead_44717ff11b8a,2026-06-13T15:30:03,Upfront,Pending,0.0,Bank Transfer,txn_5e31900c1fd2,1
+pay_4779eabdb8df,sale_874bef11a086,lead_829d38d1b94f,2026-01-27T13:47:15,Upfront,Succeeded,1250.0,Financing,txn_ac3697638777,1
+pay_b995fa99a802,sale_874bef11a086,lead_829d38d1b94f,2026-02-26T13:47:15,Recurring,Succeeded,1250.0,Financing,txn_2b23b5c0fc3e,2
+pay_6fae57516642,sale_874bef11a086,lead_829d38d1b94f,2026-03-28T13:47:15,Recurring,Succeeded,1250.0,Credit Card,txn_ff1f5036de3b,3
+pay_4c415266ad66,sale_874bef11a086,lead_829d38d1b94f,2026-04-27T13:47:15,Recurring,Succeeded,1250.0,Bank Transfer,txn_696308e44c03,4
+pay_a7aa18884fc5,sale_c54d5252258d,lead_656cf4474d8f,2026-04-11T23:32:01,Upfront,Succeeded,5000.0,Credit Card,txn_b83ca7b7a799,1
+pay_87af7074db01,sale_0cb6b452c127,lead_e503edbd15d6,2026-05-27T18:22:35,Upfront,Succeeded,625.0,Credit Card,txn_56d646694a7a,1
+pay_923942ea87b8,sale_0cb6b452c127,lead_e503edbd15d6,2026-06-26T18:22:35,Recurring,Succeeded,625.0,Credit Card,txn_db971abd5d1b,2
+pay_c1855a8728ad,sale_016134d194dd,lead_e1007eac440e,2026-05-10T23:31:16,Upfront,Succeeded,395.83,Credit Card,txn_bdbc8c5bc52a,1
+pay_5baedaa8857f,sale_016134d194dd,lead_e1007eac440e,2026-06-09T23:31:16,Recurring,Succeeded,395.83,Financing,txn_0133cc0d7d8d,2
+pay_4a8b9e6f6de2,sale_20d72f95ee3e,lead_77f4dafda23f,2026-02-20T15:26:38,Upfront,Succeeded,9750.0,Bank Transfer,txn_6cd7c25eea96,1
+pay_aa9340e9d296,sale_6bff9312129d,lead_00591179f1b4,2026-06-05T00:58:48,Upfront,Succeeded,1250.0,Credit Card,txn_40d3067a210f,1
+pay_eab4cc306b4b,sale_96b5499cba34,lead_36374ec559a0,2026-02-27T01:25:38,Upfront,Succeeded,416.67,Credit Card,txn_47bc4f64072c,1
+pay_e58a256e511e,sale_96b5499cba34,lead_36374ec559a0,2026-03-29T01:25:38,Recurring,Succeeded,416.67,Bank Transfer,txn_2feee77e901a,2
+pay_96cee78a6f78,sale_96b5499cba34,lead_36374ec559a0,2026-04-28T01:25:38,Recurring,Succeeded,416.67,Credit Card,txn_6921382112ac,3
+pay_0709ecac2799,sale_96b5499cba34,lead_36374ec559a0,2026-05-28T01:25:38,Recurring,Succeeded,416.67,Credit Card,txn_032674fa7b02,4
+pay_d884eee4954e,sale_96b5499cba34,lead_36374ec559a0,2026-06-27T01:25:38,Recurring,Succeeded,416.67,Credit Card,txn_b7f5f5671251,5
+pay_93cce08f1d53,sale_405281f34e2b,lead_fb97e2f80f09,2026-01-30T08:06:13,Upfront,Succeeded,750.0,Financing,txn_cafeab4e331c,1
+pay_7e7747980859,sale_b8284fe2b006,lead_2918ac8d10d7,2026-03-13T01:52:20,Upfront,Succeeded,2500.0,Credit Card,txn_6990baeadfcc,1
+pay_0412a98fd8c3,sale_b8284fe2b006,lead_2918ac8d10d7,2026-04-12T01:52:20,Recurring,Succeeded,2500.0,Bank Transfer,txn_7d134c945e76,2
+pay_37aa40221aec,sale_df07314c5e1a,lead_67b20658541c,2026-02-25T22:34:38,Upfront,Succeeded,1250.0,Credit Card,txn_db16043dbb3b,1
+pay_311e5e03c8b5,sale_df07314c5e1a,lead_67b20658541c,2026-03-27T22:34:38,Recurring,Succeeded,1250.0,Credit Card,txn_0302bc166c5d,2
+pay_c24db5a24264,sale_df07314c5e1a,lead_67b20658541c,2026-04-26T22:34:38,Recurring,Pending,0.0,Credit Card,txn_dffab980a01f,3
+pay_25ab512a266e,sale_df07314c5e1a,lead_67b20658541c,2026-05-26T22:34:38,Recurring,Succeeded,1250.0,Credit Card,txn_cf6b5dca79f3,4
+pay_030f7f6197a0,sale_e70392a5ba52,lead_f6b7188e9666,2026-05-24T08:54:59,Upfront,Succeeded,20.83,Credit Card,txn_30321afbb485,1
+pay_55b9fc22515a,sale_e70392a5ba52,lead_f6b7188e9666,2026-06-23T08:54:59,Recurring,Succeeded,20.83,Credit Card,txn_16f9d2a14d17,2
+pay_e85d266a9906,sale_ca2bf9ff014f,lead_f303dccffc51,2026-04-24T00:05:38,Upfront,Succeeded,2250.0,Bank Transfer,txn_f9f522ce4e93,1
+pay_15f6e825a1ff,sale_729b80607415,lead_99999980aaee,2026-04-03T06:23:22,Upfront,Pending,0.0,Credit Card,txn_ce44150b0bae,1
+pay_b0b83b6f64b0,sale_729b80607415,lead_99999980aaee,2026-05-03T06:23:22,Recurring,Succeeded,2375.0,Financing,txn_5536db9934bd,2

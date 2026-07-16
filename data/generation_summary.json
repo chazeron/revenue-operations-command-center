@@ -8,7 +8,27 @@
     "representatives": 6,
     "leads": 2500,
     "bookings": 680,
-    "sales_activities": 8256
+    "sales_activities": 8310,
+    "opportunities": 2500,
+    "sales": 87,
+    "payments": 152,
+    "marketing_expenses": 72
+  },
+  "kpis": {
+    "leads": 2500,
+    "bookings": 680,
+    "shows": 444,
+    "closed_sales": 87,
+    "booking_rate": 0.272,
+    "show_rate": 0.6529,
+    "lead_to_close_rate": 0.0348,
+    "contracted_revenue": 446629.0,
+    "cash_collected": 324349.42,
+    "cash_collection_rate": 0.7262,
+    "marketing_spend": 215403.16,
+    "revenue_per_lead": 178.65,
+    "customer_acquisition_cost": 2475.9,
+    "return_on_ad_spend": 2.07
   },
   "lead_distribution_by_source": {
     "Direct": 109,
@@ -25,7 +45,16 @@
     "Rescheduled": 71,
     "Cancelled": 49
   },
-  "average_lead_score": 60.0,
-  "booking_rate": 0.272,
-  "show_rate": 0.6529
+  "opportunity_status_counts": {
+    "Open": 1758,
+    "Lost": 655,
+    "Won": 87
+  },
+  "sales_by_product": {
+    "Mentorship Standard": 35,
+    "Mentorship Premium": 25,
+    "Group Program": 11,
+    "Workshop": 9,
+    "Digital Course": 7
+  }
 }
