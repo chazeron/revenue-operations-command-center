@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const items = [
@@ -14,6 +15,7 @@ const items = [
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <div className="sticky top-0 z-50 border-b border-white/10 bg-[#071321]/95 px-5 py-4 backdrop-blur-xl lg:hidden">
@@ -37,16 +39,24 @@ export function MobileNav() {
 
       {open && (
         <nav className="mt-4 grid gap-2 border-t border-white/10 pt-4">
-          {items.map(([href, label]) => (
-            <Link
-              key={href}
-              href={href}
-              onClick={() => setOpen(false)}
-              className="rounded-xl px-4 py-3 text-[15px] text-slate-300 hover:bg-white/[0.05] hover:text-white"
-            >
-              {label}
-            </Link>
-          ))}
+          {items.map(([href, label]) => {
+            const active = pathname === href;
+
+            return (
+              <Link
+                key={href}
+                href={href}
+                onClick={() => setOpen(false)}
+                className={`rounded-xl border px-4 py-3 text-[15px] transition ${
+                  active
+                    ? "border-cyan-400/20 bg-cyan-400/[0.09] text-white"
+                    : "border-transparent text-slate-300 hover:bg-white/[0.05] hover:text-white"
+                }`}
+              >
+                {label}
+              </Link>
+            );
+          })}
         </nav>
       )}
     </div>
