@@ -1,0 +1,256 @@
+{
+  "validation_passed": true,
+  "relationship_checks": [
+    {
+      "check": "leads.lead_id unique",
+      "passed": true,
+      "details": "No duplicate primary keys"
+    },
+    {
+      "check": "bookings.booking_id unique",
+      "passed": true,
+      "details": "No duplicate primary keys"
+    },
+    {
+      "check": "opportunities.opportunity_id unique",
+      "passed": true,
+      "details": "No duplicate primary keys"
+    },
+    {
+      "check": "sales.sale_id unique",
+      "passed": true,
+      "details": "No duplicate primary keys"
+    },
+    {
+      "check": "payments.payment_id unique",
+      "passed": true,
+      "details": "No duplicate primary keys"
+    },
+    {
+      "check": "activities.activity_id unique",
+      "passed": true,
+      "details": "No duplicate primary keys"
+    },
+    {
+      "check": "representatives.representative_id unique",
+      "passed": true,
+      "details": "No duplicate primary keys"
+    },
+    {
+      "check": "Bookings reference valid leads",
+      "passed": true,
+      "details": "All booking lead_id values exist in leads"
+    },
+    {
+      "check": "Opportunities reference valid leads",
+      "passed": true,
+      "details": "All opportunity lead_id values exist in leads"
+    },
+    {
+      "check": "Sales reference valid leads",
+      "passed": true,
+      "details": "All sale lead_id values exist in leads"
+    },
+    {
+      "check": "Sales reference valid opportunities",
+      "passed": true,
+      "details": "All sale opportunity_id values exist in opportunities"
+    },
+    {
+      "check": "Payments reference valid sales",
+      "passed": true,
+      "details": "All payment sale_id values exist in sales"
+    },
+    {
+      "check": "Activities reference valid leads",
+      "passed": true,
+      "details": "All activity lead_id values exist in leads"
+    },
+    {
+      "check": "Won opportunity revenue matches sales revenue",
+      "passed": true,
+      "details": "Won opportunities: 446629.00; Sales: 446629.00"
+    },
+    {
+      "check": "Lead sale_id values reference valid sales",
+      "passed": true,
+      "details": "87 populated lead sale_id values checked"
+    }
+  ],
+  "kpis": {
+    "leads": 2500,
+    "bookings": 680,
+    "shows": 444,
+    "offers": 87,
+    "closed_sales": 87,
+    "no_shows": 116,
+    "booking_rate": 0.272,
+    "show_rate": 0.6529,
+    "offer_rate": 0.1959,
+    "close_rate": 1.0,
+    "lead_to_close_rate": 0.0348,
+    "contracted_revenue": 446629.0,
+    "cash_collected": 324349.42,
+    "cash_collection_rate": 0.7262,
+    "average_contract_value": 5133.67,
+    "revenue_per_lead": 178.65,
+    "marketing_spend": 215403.16,
+    "cost_per_lead": 86.16,
+    "cost_per_booking": 316.77,
+    "customer_acquisition_cost": 2475.9,
+    "return_on_ad_spend": 2.07,
+    "lost_revenue": 933114.0,
+    "no_show_opportunity_cost": 116659.49
+  },
+  "realism_flags": [
+    {
+      "metric": "booking_rate",
+      "value": 0.272,
+      "expected_demo_range": [
+        0.15,
+        0.45
+      ],
+      "status": "reasonable"
+    },
+    {
+      "metric": "show_rate",
+      "value": 0.6529,
+      "expected_demo_range": [
+        0.45,
+        0.8
+      ],
+      "status": "reasonable"
+    },
+    {
+      "metric": "offer_rate",
+      "value": 0.1959,
+      "expected_demo_range": [
+        0.35,
+        0.85
+      ],
+      "status": "review"
+    },
+    {
+      "metric": "close_rate",
+      "value": 1.0,
+      "expected_demo_range": [
+        0.1,
+        0.45
+      ],
+      "status": "review"
+    },
+    {
+      "metric": "lead_to_close_rate",
+      "value": 0.0348,
+      "expected_demo_range": [
+        0.01,
+        0.12
+      ],
+      "status": "reasonable"
+    },
+    {
+      "metric": "cash_collection_rate",
+      "value": 0.7262,
+      "expected_demo_range": [
+        0.35,
+        1.05
+      ],
+      "status": "reasonable"
+    },
+    {
+      "metric": "return_on_ad_spend",
+      "value": 2.07,
+      "expected_demo_range": [
+        1.0,
+        12.0
+      ],
+      "status": "reasonable"
+    }
+  ],
+  "channel_summary": [
+    {
+      "source": "Direct",
+      "leads": 109,
+      "bookings": 30,
+      "closed_sales": 1,
+      "contracted_revenue": 500,
+      "marketing_spend": 2697.94,
+      "booking_rate": 0.2752,
+      "lead_to_close_rate": 0.0092,
+      "cac": 2697.94,
+      "roas": 0.19
+    },
+    {
+      "source": "Email Campaign",
+      "leads": 124,
+      "bookings": 30,
+      "closed_sales": 4,
+      "contracted_revenue": 13047,
+      "marketing_spend": 3537.4300000000003,
+      "booking_rate": 0.2419,
+      "lead_to_close_rate": 0.0323,
+      "cac": 884.36,
+      "roas": 3.69
+    },
+    {
+      "source": "Google Ads",
+      "leads": 298,
+      "bookings": 82,
+      "closed_sales": 14,
+      "contracted_revenue": 93000,
+      "marketing_spend": 42749.46,
+      "booking_rate": 0.2752,
+      "lead_to_close_rate": 0.047,
+      "cac": 3053.53,
+      "roas": 2.18
+    },
+    {
+      "source": "Meta Ads",
+      "leads": 843,
+      "bookings": 188,
+      "closed_sales": 18,
+      "contracted_revenue": 95547,
+      "marketing_spend": 109944.32,
+      "booking_rate": 0.223,
+      "lead_to_close_rate": 0.0214,
+      "cac": 6108.02,
+      "roas": 0.87
+    },
+    {
+      "source": "Organic",
+      "leads": 392,
+      "bookings": 98,
+      "closed_sales": 12,
+      "contracted_revenue": 65447,
+      "marketing_spend": 9574.51,
+      "booking_rate": 0.25,
+      "lead_to_close_rate": 0.0306,
+      "cac": 797.88,
+      "roas": 6.84
+    },
+    {
+      "source": "Referral",
+      "leads": 239,
+      "bookings": 83,
+      "closed_sales": 17,
+      "contracted_revenue": 72697,
+      "marketing_spend": 10277.46,
+      "booking_rate": 0.3473,
+      "lead_to_close_rate": 0.0711,
+      "cac": 604.56,
+      "roas": 7.07
+    },
+    {
+      "source": "Webinar",
+      "leads": 495,
+      "bookings": 169,
+      "closed_sales": 21,
+      "contracted_revenue": 106391,
+      "marketing_spend": 36622.04,
+      "booking_rate": 0.3414,
+      "lead_to_close_rate": 0.0424,
+      "cac": 1743.91,
+      "roas": 2.91
+    }
+  ]
+}
